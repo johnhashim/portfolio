@@ -1,0 +1,461 @@
+
+
+
+
+
+html,
+body {
+    height: 100%;
+    display: block;
+
+}
+
+
+body {
+    background-image: url("/img/bg2.png");
+    background-repeat: repeat;
+    padding: 0 0 1px;
+    margin: 0;
+    outline: block;
+    font: normal normal 14px Oswald;
+    color: #4f4f4f;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-height: 100%;
+    position: relative;
+
+}
+@media screen and(max-width:500px){
+    
+    body{
+        font-size: 1.5em;
+        width: 320px;
+    }
+    #outer-wrapper{
+        width: 100%;
+        font-size:1em;
+    }
+}
+
+
+
+#outer-wrapper {
+    width: 100%;
+    max-width: 1113px;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.2);
+    padding: 20px auto;
+
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+#logospace {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#logospace img {
+    margin-left: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.navbar-custom {
+     background-color: #003355;
+}
+
+.navbar-custom .nav-item .active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    background-color: #ff5500;
+    color: black;
+    float: left;
+    padding: 0 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    
+}
+
+
+.navbar-custom .navbar-text {
+    color:#ff5500;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: inherit;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+
+.header-menu {
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+
+
+.space{
+    padding: 20px;
+    clear: both;
+}
+
+.between {
+    padding: 10px;
+    clear: both;
+}
+
+
+ .breakingnewstag{
+    float: right;
+    height: 40px;
+    background-color: #003355;
+    font-size: 15px;
+    color: #eee;
+    line-height: 40px;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    position: relative;
+}
+
+
+#marquee {
+    float: left;
+    height: 40px;
+    background-color:transparent;
+    max-width: 1063px;
+    margin: 20px auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.post-header {
+    line-height: 15px;
+    background-color: #003355;
+   
+
+}
+
+.post-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003355;
+   
+}
+
+.post-header ul li {
+    float: left;
+
+}
+
+.post-header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+/*end of postheader categories*/
+
+.clearfix::after {
+    clear: both;
+    display: table;
+}
+
+.clearfix {
+    border: 3px;
+    padding: 5px;
+    background-color: transparent;
+    display: flex;
+}
+
+
+
+
+.clearfix h3:hover {
+    color: #ff5500;
+    text-indent: 0;
+}
+
+.imgholder {
+    position: relative;
+}
+
+
+
+div {
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+/*------------------------------------------------------end of navs*/
+
+/*the the news content section------------*/
+
+
+.news {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-img-item {
+  width: 100%;
+}
+
+.news-title{
+  color: #003355;  
+    
+}
+
+.news-meta,
+.news-title,
+.news-description {
+  margin: 0;
+  padding: 0;
+}
+.news-description{
+    line-height: normal;
+    font-size: 21px;
+}
+
+.news-description {
+  margin-top: 4px;
+}
+
+.news-meta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.news-meta-item {
+  list-style: none;
+  margin: 0;
+}
+
+.news-meta-item  {
+  margin-left: 20px;
+}
+
+.news-meta-label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 500px) {
+
+  .news {
+    flex-wrap: nowrap;
+  }
+
+  .news-img {
+    flex-basis:20%;
+  }
+
+  .clearfix,.news-content {
+    flex-basis:60%;
+  }
+    
+
+}
+
+
+
+/*end of  the news content section------------*/
+
+/*------------------starting of advert gif*/
+
+.advert-header img {
+    border: 0;
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+/*------------------end of advert gif*/
+
+.socials {
+    position: relative;
+}
+
+.socials a {
+    position: relative;
+}
+
+/*------------------starting of health tips*/
+
+.healthtips ul li a {
+    color:navy;
+}
+
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+/*------------------ending of sfooter*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
